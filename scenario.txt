@@ -1,0 +1,38 @@
+skenario:
+tokoh:	- Melo	   ->	sahabat
+	- Sekar          ->	sahabat
+	- Febi           ->	istri	  infected
+	- Arif	         ->	suami
+	- Stephen        ->	anak	  victim
+
+lokasi: - kos-kosan
+	- apartmen
+	- tempat pembagian bansos
+
+pesannya: tidak semua orang yang terinfeksi memiliki gejala yang langsung terlihat atau terasa oleh penderita
+
+Pada pertengahan bulan September 2020, ada seorang pemuda bernama Melo. Ia tinggal di sebuah kos-kosan sederhana yang kebetulan baru saja kedatangan seorang penghuni baru, dan tradisi disana jika ada penghuni baru maka semua penghuni kos-kosan kumpul bareng di kos dan kumpulin duit buat makan bareng dll.\n
+Lalu di sisi lain ada sebuah keluarga kecil di sebuah apartemen yang tidak seberapa, terdapat Arif dan Febi sepasang orang tua dengan anak mereka bernama Stephen. suatu hari Melo mengunjungi Arif karena mereka berdua adalah sahabat karib sejak SMP. Disana Melo bercerita tentang nostalgia dan pekerjaannya, begitu juga Arif.\n
+Mereka juga sempat bermain bersama Stephen yang masih berusia 2 tahun saat Febi sedang berbelanja keperluan dapur. Karena kebetulan Melo datang ke apartemen mereka maka Febi berencana untuk masak sedikit lebih banyak. Setelah ia pulang berbelanja, ia langsung memasak dan makan bareng.\n
+Lalu keesokan harinya, Arif bekerja sebagai petugas pembagian bansos sepanjang hari. Hari itu juga Febi akan bertemu dengan relasi pertama bisnisnya, maka Stephen dititipkan ke Sekar tetangga apartemennya. Sore harinya Febi dan Arif pulang dan menjemput Stephen lalu mandi, bersih-bersih dll.\n
+Keesokan harinya Stephen mengalami demam yang cukup tinggi lalu diikuti batuk-batuk dan sesak nafas. Febi dan Arif yang kebetulan sama-sama sedang memiliki waktu kosong, akhirnya berkonsultasi ke dokter anak.\n
+Dokter menduga Stephen terinfeksi virus SARS-CoV-2 yang menyebabkan pandemi COVID-19, maka mereka segera melakukan Rapid test dan ternyata positif dan lanjut ke Swab test ternyata hanya Stephen yang positif, dan harus melakukan karantina di rumah sakit.
+
+seleksi siapa yang sekiranya bukan penyebab Stephen terdampak gejala COVID-19
+
+clue of the suspect:	- langsung
+                      - pulang
+
+result:
+- jika Febi yang tersisa: selamat kamu adalah detektif COVID-19 yang hebat, mengapa Febi? karena saat ia pergi berbelanja ia bertemu dan terjangkit dengan seorang pedagang yang ternyata
+  sudah terjangkit SARS-CoV-2 sejak beberapa hari belakangan ini, dan Febi tidak mandi atau bersih" terlebih dahulu setelah sampai di apartemennya sehingga virus yang dia bawa menular ke
+  keluarganya sehingga Stephen yang imunitasnya belum sempurna mudah untuk terdampak gejala COVID-19.
+
+- jika bukan Febi yang tersisa:
+  > Arif: sebenarnya bukan Arif yang terjangkit karena dia selalu mematuhi protokol kesehatan dan selalu menerapkan 3m saat membagikan bansos.
+    sehingga susah untuk memungkinkan dapat terjangkit SARS-CoV-2. cobalah sekali lagi untuk mencari siapakah penyebab Stephen terdampak gejala COVID-19.
+  > Melo: Melo bukanlah orang yang membuat Stephen terdampak COVID-19. karena setiap penghuni kos sudah menjalani rapid tes dan semua negatif, dan sebagian besar juga menjalani swab test
+    secara masing" dan Melo pun salah satu yang hasil swab testnya negatif. cobalah sekali lagi untuk mencari siapakah penyebab Stephen terdampak gejala COVID-19.
+  > Sekar: sebelumnya Sekar merupakan salah satu penderita COVID-19, namun setelah menjalani karantina mandiri sepanjang bulan agustus, ia akhirnya bisa kembali normal
+    dan memiliki imunitas yang dapat menaklukan SARS-CoV-2 dan kebiasaan yang sehat sejak dulu ditambah protokol yang selalu ia jalani membuat SARS-CoV-2 susah untuk kembali menjangkitinya.
+    cobalah sekali lagi untuk mencari siapakah penyebab Stephen terdampak gejala COVID-19.

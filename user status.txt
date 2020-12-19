@@ -1,0 +1,5 @@
+none -> kalau blm milih satupun fitur, buka artikel, buka update kopit & finish minigame
+minigame -> kalau lagi milih skenario
+    fase1 -> kalau sudah milih satu skenario
+    fase2 -> kalau sudah milih satu orang yang di eliminasi di fase1
+    fase3 -> kalau sudah milih satu orang yang di eliminasi di fase2

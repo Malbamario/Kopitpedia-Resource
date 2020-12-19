@@ -1,0 +1,125 @@
+{
+  "type": "bubble",
+  "header": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Fitur",
+        "weight": "bold",
+        "wrap": true,
+        "align": "center",
+        "size": "xl"
+      }
+    ],
+    "paddingTop": "md",
+    "paddingBottom": "sm",
+    "backgroundColor": "#bbbbbb"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "Artikel",
+              "data": "artikel"
+            },
+            "style": "primary",
+            "margin": "none",
+            "color": "#2f5fff"
+          },
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "Mini Games",
+              "data": "mini games"
+            },
+            "style": "primary",
+            "margin": "lg"
+          }
+        ],
+        "paddingAll": "none",
+        "paddingTop": "lg"
+      },
+      {
+        "type": "box",
+        "layout": "horizontal",
+        "contents": [
+          {
+            "type": "button",
+            "action": {
+              "type": "postback",
+              "label": "Update COVID-19",
+              "data": "update kopit"
+            },
+            "style": "primary",
+            "margin": "none",
+            "color": "#f98400"
+          }
+        ],
+        "paddingAll": "none",
+        "paddingTop": "lg"
+      },
+      {
+        "type": "separator",
+        "margin": "xl",
+        "color": "#aaaaaa"
+      },
+      {
+        "type": "text",
+        "text": "Commands",
+        "margin": "md",
+        "weight": "bold",
+        "size": "xl",
+        "wrap": true,
+        "align": "center"
+      },
+      {
+        "type": "text",
+        "text": "Kirim berupa message",
+        "wrap": true,
+        "align": "center",
+        "size": "xs",
+        "style": "italic",
+        "weight": "regular",
+        "margin": "none"
+      },
+      {
+        "type": "text",
+        "text": "/menu : Tampilan Menu (ini) \n/help : Bantuan \n/kns (kalimat) : Kritik & Saran",
+        "wrap": true,
+        "margin": "md",
+        "weight": "bold"
+      }
+    ],
+    "paddingTop": "none",
+    "paddingBottom": "sm"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "text",
+        "text": "tidak bisa dikirim saat dalam mini games",
+        "wrap": true,
+        "margin": "lg",
+        "size": "sm",
+        "style": "italic",
+        "align": "center",
+        "color": "#ffffff"
+      }
+    ],
+    "paddingTop": "none",
+    "backgroundColor": "#f04f4f"
+  }
+}

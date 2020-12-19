@@ -1,0 +1,113 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Regional",
+          "size": "lg",
+          "align": "center",
+          "weight": "bold",
+          "color": "#ffffff"
+        }
+      ],
+      "paddingTop": "lg",
+      "paddingBottom": "lg",
+      "backgroundColor": "#ff1f2f"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Sumatera",
+                "data": "Sumatera"
+              },
+              "style": "primary",
+              "color": "#ff1f2f"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Jawa",
+                "data": "Jawa"
+              },
+              "style": "primary",
+              "color": "#ff1f2f",
+              "margin": "lg"
+            }
+          ]
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Bali & Nusra",
+                "data": "Bali & Nusra"
+              },
+              "style": "primary",
+              "color": "#ff1f2f",
+              "margin": "none"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Kalimantan",
+                "data": "Kalimantan"
+              },
+              "style": "primary",
+              "color": "#ff1f2f",
+              "margin": "lg"
+            }
+          ],
+          "margin": "lg"
+        },
+        {
+          "type": "box",
+          "layout": "horizontal",
+          "contents": [
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Sulawesi",
+                "data": "Sulawesi"
+              },
+              "style": "primary",
+              "color": "#ff1f2f",
+              "margin": "none"
+            },
+            {
+              "type": "button",
+              "action": {
+                "type": "postback",
+                "label": "Maluku & Papua",
+                "data": "Maluku & Papua"
+              },
+              "style": "primary",
+              "color": "#ff1f2f",
+              "margin": "lg"
+            }
+          ],
+          "margin": "lg"
+        }
+      ],
+      "backgroundColor": "#ff6f6f"
+    }
+}
