@@ -1,0 +1,42 @@
+{
+    "type": "bubble",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "Tutorial",
+          "color": "#ffffff",
+          "size": "lg",
+          "weight": "bold",
+          "align": "center"
+        }
+      ],
+      "backgroundColor": "#17c950",
+      "paddingTop": "lg",
+      "paddingBottom": "lg"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "1. Baca cerita dari minigames ini. \n\n2. Tentukan tokoh dari cerita tersebut yang sekiranya bukan merupakan penyebab penularan SARS-CoV-2 sesuai cerita tersebut. \n\n3. Akan terdapat 2 clue dari tokoh penyebab kejadian penularan sesuai cerita. \n\n4. Setelah memilih 3 tokoh maka minigames akan selesai dan menampilkan hasilnya. \n\n5. Jika ingin berhenti sebelum minigames selesai, bisa menggunakan command \"/back\".",
+          "wrap": true
+        },
+        {
+          "type": "button",
+          "action": {
+            "type": "postback",
+            "label": "Mulai",
+            "data": "start"
+          },
+          "style": "primary",
+          "margin": "xxl",
+          "height": "sm"
+        }
+      ]
+    }
+  }
